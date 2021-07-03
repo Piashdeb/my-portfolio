@@ -12,24 +12,38 @@ h1 {
 section {
     display: flex;
     padding: 20px;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
 }
 .half-width img {
-    width: 100%;
+    width: 80%;
     padding-left: 5px;
 }
-.link-button{
+.link-button {
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
-
+}
+.link-button1 {
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10px;
 }
